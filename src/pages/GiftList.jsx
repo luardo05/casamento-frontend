@@ -97,7 +97,7 @@ function GiftList() {
     // Estilos da Grid (Mantidos)
     grid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: '20px' },
     card: { backgroundColor: 'white', borderRadius: '10px', overflow: 'hidden', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', display: 'flex', flexDirection: 'column' },
-    image: { width: '100%', height: '200px', objectFit: 'cover', backgroundColor: '#eee' },
+    image: { width: '100%', height: 'auto', objectFit: 'cover', backgroundColor: '#eee' },
     cardContent: { padding: '15px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' },
     title: { fontSize: '18px', margin: '0 0 10px 0', color: '#333' },
     info: { fontSize: '14px', color: '#666', marginBottom: '15px' },
