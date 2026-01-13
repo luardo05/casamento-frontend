@@ -82,7 +82,7 @@ function GiftList() {
     sectionTitle: { color: '#555', borderBottom: '1px solid #ddd', paddingBottom: '10px', marginTop: '40px' },
     grid: { display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: '20px', marginTop: '20px' },
     card: { backgroundColor: 'white', borderRadius: '10px', overflow: 'hidden', boxShadow: '0 4px 6px rgba(0,0,0,0.1)', display: 'flex', flexDirection: 'column' },
-    image: { width: '100%', height: '200px', objectFit: 'cover' },
+    image: { width: '100%', height: 'auto', objectFit: 'cover' },
     cardContent: { padding: '15px', flex: 1, display: 'flex', flexDirection: 'column', justifyContent: 'space-between' },
     button: { width: '100%', padding: '10px', borderRadius: '5px', border: 'none', cursor: 'pointer', fontWeight: 'bold', marginTop: '10px' }
   };
