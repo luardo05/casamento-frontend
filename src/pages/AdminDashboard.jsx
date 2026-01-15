@@ -102,7 +102,7 @@ function AdminDashboard() {
       <div style={{...styles.tableWrapper, marginBottom: '40px'}}>
         <table style={styles.table}>
           <thead>
-            <tr style={{backgroundColor:'#fff8e1'}}><th style={styles.th}>Quem enviou</th><th style={styles.th}>Mensagem</th></tr>
+            <tr style={{backgroundColor:'#fff8e1'}}><th style={styles.th}>Quem enviou</th><th style={styles.th}>Presente</th></tr>
           </thead>
           <tbody>
             {giftsData.custom?.length === 0 && <tr><td colSpan="2" style={styles.td}>Nenhum presente personalizado.</td></tr>}
