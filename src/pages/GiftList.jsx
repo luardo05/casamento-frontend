@@ -10,7 +10,7 @@ function GiftList() {
   const navigate = useNavigate();
 
   // --- CONFIGURE AQUI ---
-  const CHAVE_PIX = "713.488.954-89"; 
+  const CHAVE_PIX = "cedc0847-9c9e-4c45-b445-c300704b2ca6"; 
   const NOME_BENEFICIARIO = "Hiago Rodrigo Silva Gomes";
 
   const loadGifts = async () => {
